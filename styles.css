@@ -49,7 +49,8 @@
 .page3{
 	background-color:#efefef;
 	height: auto;
-	padding: 20px	
+	padding: 20px; 
+	witdth: 100%
 }
 .page3 h1{
 	color: #5d5a57;
