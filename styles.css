@@ -3,14 +3,16 @@
 	padding: 0px; 
 
 }
-
 .header {
     /*position: fixed; */
     background-color: black; 
     font-size: 1.5em; 
-    /*top:0;	*/
-    color: white;
+    top:0;	
+    z-index: 999;
+
  } 
+
+
 .page1, .page2, .page3, .page4, .page5{
 	background:url("images/manu.png") no-repeat center center fixed;
 	background-size: cover;
@@ -22,7 +24,7 @@
 	/*my picture*/
 	height: 40%;
 	border-radius: 50%;
-	margin-top: 2%;
+	margin-top: 6%;
 
 }
 .page2{
@@ -49,6 +51,7 @@
     border-radius: 10%;
 }
 .page3{
+
 	background-color:#efefef;
 	height: auto;
 	padding: 20px	
@@ -82,10 +85,7 @@
     box-shadow: 1px 2px 20px;
     font-size: 4.0em;
 }
-.page3 h2{
-	/*color: #5d5a57*/
 
-}
 .page3 p, h2{
 	color: white;
 	font-size: 1.2em;
@@ -128,16 +128,19 @@
 
 a {
 	margin: 10px; 
+	color: black;
 
 }
 input {
 	width: 75%; 
 	height: 5%;
-	/*background-color:#b2cecf;*/
+	background-color:  #334d4d;
+	padding: 10px
 }
 textarea{
+	padding: 10px;
 	width: 75%;
-	/*background-color: #b2cecf;*/
+	background-color:  #334d4d;
 
 }
 .top {
@@ -163,6 +166,7 @@ h3{
 	width: 60px;
 	height: auto
 }
+
 
 
 
